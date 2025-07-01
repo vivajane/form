@@ -7,7 +7,7 @@ const StepFour = ({ PrevStep, NextStep }) => {
     <div>
       <ComProps />
       <div className="bg-black  text-white mx-auto h-screen">
-        <div className="min-h-screen w-3/6 mx-auto bg-black">
+        <div className="min-h-screen px-6 sm:px-10 md:px-0 md:w-3/6 mx-auto bg-black">
           <h1 className="text-center text-xl font-semibold py-4 ">
             Miles Responsibility
           </h1>

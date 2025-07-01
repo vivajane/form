@@ -5,7 +5,7 @@ const ComProps = ({setStep, step}) => {
   return (
     <div className=" bg-black py-8 text-sm md:text-base text-white  text-center  ">
       <div className="lg:px-38 md:px-28 sm:px-16 px-8 p-4">
-        <h1 className="font-medium md:text-2xl">
+        <h1 className="font-medium py-4 md:text-2xl">
           Search Flights, Cheapest Flights
         </h1>
         <p className="font-light text-[#AAAAAA] font-sans text-base">
@@ -19,17 +19,17 @@ const ComProps = ({setStep, step}) => {
          <div className="bg-[#13B7CC]  md:w-14 md:h-14 w-8 h-6 rounded-full">
            <img className="text-center md:pt-3 md:pl-3" src="/images/fo.png" alt="fo" />
          </div>
-          <hr className="border-t-3 border-[#AAAAAA] w-20 " />
+          <hr className="border-t-3 border-[#AAAAAA] md:w-20 w-10 " />
           <img src="/images/ft.png" alt="ftw" />
-          <hr className="border-t-3 border-[#AAAAAA] w-20 " />
+          <hr className="border-t-3 border-[#AAAAAA] md:w-20 w-10 " />
           <img src="/images/ftw.png" alt="ftw" />
-          <hr className="border-t-3 border-[#AAAAAA] w-20 " />
+          <hr className="border-t-3 border-[#AAAAAA] md:w-20 w-10 " />
 
           <img src="/images/ff.png" alt="ff" />
-          <hr className="border-t-3 border-[#AAAAAA] w-20 " />
+          <hr className="border-t-3 border-[#AAAAAA] md:w-20 w-10 " />
 
           <img src="/images/ffi.png" alt="ffi" />
-          <hr className="border-t-3 border-[#AAAAAA] w-20  " />
+          <hr className="border-t-3 border-[#AAAAAA] md:w-20 w-10  " />
         </div>
       </div>
     </div>
